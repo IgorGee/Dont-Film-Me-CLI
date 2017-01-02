@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "axios": "^0.15.3",
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "imgur": "^0.2.0"
+  }
+}
