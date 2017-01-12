@@ -28,7 +28,7 @@ blurring by automating the process.
 2. Break the video down into images and audio
 3. Compare one image against the `reference` face every `f` images
   - `f`: frequency of frame analysis
-  - Analysis is down via [Microsoft Cognitive Services Vision API](Microsoft Cognitive Services Vision API)
+  - Analysis is done via [Microsoft Cognitive Services Vision API](Microsoft Cognitive Services Vision API)
 
 4. Blur the face region of the image for `f` frames if there is a match
   - A neat optimization would be blur the previous 5 or 10 frames as well as
