@@ -4,7 +4,7 @@ import axios from 'axios'
 (() => {
   imgur.setAPIUrl('https://api.imgur.com/3/')
 
-  axios.defaults.baseURL = 'https://api.projectoxford.ai/face/v1.0'
+  axios.defaults.baseURL = 'https://eastus.api.cognitive.microsoft.com/face/v1.0/'
   axios.defaults.headers.common['Ocp-Apim-Subscription-Key'] = '<YOUR_API_KEY>'
 })()
 
