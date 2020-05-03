@@ -1,8 +1,8 @@
-[ccccOriginal]: http://i.giphy.com/WbAs1TaJw5N4c.gif "CCCC Original"
-[ccccOne]: http://i.giphy.com/8bLPddEM8Xrqw.gif "CCCC One"
-[ccccTwo]: http://i.giphy.com/wIIqNYtXf7gty.gif "CCCC Two"
-[trumpOriginal]: http://i.giphy.com/98b3hH52z4zVm.gif "Trump Original"
-[trumpBlur]: http://i.giphy.com/qSZWjHWESJNhC.gif "trumpBlur"
+[ccccOriginal]: https://media.giphy.com/media/WqcnRhHmfdMAKZwd3V/giphy.gif "CCCC Original"
+[ccccOne]: https://media.giphy.com/media/PnfmC0WEwI8S87fmoh/giphy.gif "CCCC One"
+[ccccTwo]: https://media.giphy.com/media/kbcOK6hrefZlibuBTc/giphy.gif "CCCC Two"
+[trumpOriginal]: https://media.giphy.com/media/iDt2eXHh3STin5nF07/giphy.gif "Trump Original"
+[trumpBlur]: https://media.giphy.com/media/chtIvhys8lRwKyhygL/giphy.gif "trumpBlur"
 
 [reff]: http://i.imgur.com/b6CbKeq.png "Female Reference"
 [refm]: http://i.imgur.com/ePWGgnv.png "Male Reference"
