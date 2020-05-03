@@ -1,8 +1,7 @@
 import StackBlur from 'stackblur-canvas'
-import Canvas, { Image } from 'canvas'
+import { Canvas, Image } from 'canvas'
 import fs from 'fs'
 import * as Api from './Api'
-import path from 'path'
 
 const blurImage = (file, videoResolution, face, radiusBlur=70) => {
   const canvasOriginal = new Canvas(videoResolution.width, videoResolution.height)
@@ -13,7 +12,7 @@ const blurImage = (file, videoResolution, face, radiusBlur=70) => {
   fs.readFile(file, (err, data) => {
     if (err) console.error(err)
 
-    const img = new Canvas.Image
+    const img = new Image()
     img.src = data
 
     ctxOriginal.drawImage(img, 0, 0, img.width, img.height)
@@ -22,7 +21,7 @@ const blurImage = (file, videoResolution, face, radiusBlur=70) => {
     const imageData = ctxOriginal.getImageData(face.x, face.y, face.width, face.height)
     StackBlur.imageDataRGBA(imageData, face.x, face.y, face.width, face.height, radiusBlur)
     ctxBlur.putImageData(imageData, face.x, face.y)
-    const stream = canvasBlur.createJPEGStream({ bufsize: 2048, quality: 100 })
+    const stream = canvasBlur.createJPEGStream({ bufsize: 2048, quality: 1 })
     const out = fs.createWriteStream(file)
     stream.on('data', chunk => out.write(chunk))
   })
